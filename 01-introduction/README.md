@@ -613,9 +613,3 @@ The assignment includes:
 - [LangChain Python Documentation](https://python.langchain.com/)
 - [GitHub Models Marketplace](https://github.com/marketplace/models)
 - [Chat Models Documentation](https://python.langchain.com/docs/integrations/chat/)
-
----
-
-## 🗺️ Navigation
-
-[← Previous: Course Setup](../00-course-setup/README.md) | [Back to Main](../README.md) | [Next: Chat Models & Basic Interactions →](../02-chat-models/README.md)

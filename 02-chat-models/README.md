@@ -949,9 +949,3 @@ The assignment includes:
 - [Model Parameters](https://platform.openai.com/docs/api-reference/chat/create)
 
 💡 **Want more examples?** Check out the [samples/](./samples) folder for additional code examples including streaming responses, error handling, and token tracking!
-
----
-
-## 🗺️ Navigation
-
-[← Previous: Introduction](../01-introduction/README.md) | [Back to Main](../README.md) | [Next: Prompts, Messages & Outputs →](../03-prompts-messages-outputs/README.md)
