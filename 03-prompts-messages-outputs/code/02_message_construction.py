@@ -100,9 +100,9 @@ def main():
     emoji_messages = create_conversation(
         "emoji translator",
         [
-            {"question": "happy", "answer": ""},
-            {"question": "sad", "answer": ""},
-            {"question": "excited", "answer": ""},
+            {"question": "happy", "answer": "😊"},
+            {"question": "sad", "answer": "😢"},
+            {"question": "excited", "answer": "🎉"},
         ],
         "surprised",
     )

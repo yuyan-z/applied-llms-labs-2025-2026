@@ -27,10 +27,10 @@ def emotion_to_emoji_example():
     )
 
     examples = [
-        {"input": "happy", "output": ""},
-        {"input": "sad", "output": ""},
-        {"input": "excited", "output": ""},
-        {"input": "angry", "output": ""},
+        {"input": "happy", "output": "😊"},
+        {"input": "sad", "output": "😢"},
+        {"input": "excited", "output": "🎉"},
+        {"input": "angry", "output": "😠"},
     ]
 
     # Create example template

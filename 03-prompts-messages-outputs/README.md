@@ -184,16 +184,16 @@ def main():
     emoji_messages = create_conversation(
         "emoji translator",
         [
-            {"question": "happy", "answer": ""},
-            {"question": "sad", "answer": ""},
-            {"question": "excited", "answer": ""},
+            {"question": "happy", "answer": "😊"},
+            {"question": "sad", "answer": "😢"},
+            {"question": "excited", "answer": "🎉"},
         ],
         "surprised",
     )
 
     print(f"Messages constructed: {len(emoji_messages)}")
     response = model.invoke(emoji_messages)
-    print(f"AI Response: {response.content}")  # Expected: 
+    print(f"AI Response: {response.content}")  # Expected: 😮
 
 if __name__ == "__main__":
     main()
@@ -203,7 +203,7 @@ if __name__ == "__main__":
 
 ```text
 Messages constructed: 8
-AI Response: 
+AI Response: 😮
 ```
 
 ### How It Works
@@ -386,9 +386,9 @@ def main():
 
     # Teaching examples
     examples = [
-        {"input": "happy", "output": ""},
-        {"input": "sad", "output": ""},
-        {"input": "excited", "output": ""},
+        {"input": "happy", "output": "😊"},
+        {"input": "sad", "output": "😢"},
+        {"input": "excited", "output": "🎉"},
     ]
 
     # Example template
@@ -424,9 +424,9 @@ if __name__ == "__main__":
 ### Expected Output
 
 ```text
-angry → 
-love → ️
-confused → 
+angry → 😠
+love → ❤️
+confused → 😕
 ```
 
 ### How It Works
